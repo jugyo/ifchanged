@@ -8,7 +8,7 @@ If files changed, do something.
 
 == SYNOPSIS:
 
-  ifchanged ./*.html --do='open %'
+ ifchanged ./*.html --do='open %'
 
 == INSTALL:
 
