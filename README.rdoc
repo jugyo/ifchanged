@@ -1,0 +1,16 @@
+= ifchanged
+
+http://github.com/jugyo/ifchanged
+
+== DESCRIPTION:
+
+If files changed, do something.
+
+== SYNOPSIS:
+
+  ifchanged ./test.html --do='open ./test.html'
+
+== INSTALL:
+
+ gem source -a http://gems.github.com
+ sudo gem install jugyo-ifchanged
