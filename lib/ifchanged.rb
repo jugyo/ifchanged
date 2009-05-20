@@ -32,10 +32,11 @@ module IfChanged
       end
 
       Observer.add_hook do |files|
-        puts "modified: #{files.join(', ')}"
-        run_script = eval("\"#{script}\"")
-        puts "run: #{run_script}"
-        system *run_script.split(/\s+/)
+        files.each do |file|
+          run_script = script.gsub('%', file)
+          puts "!#{run_script}"
+          system *run_script.split(/\s+/)
+        end
       end
 
       Observer.run(:files => files, :interval => interval)
