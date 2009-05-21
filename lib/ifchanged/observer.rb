@@ -42,8 +42,6 @@ module IfChanged
 
       puts '# Press Ctrl-C to exit.'
 
-      call_hooks(@file_infos.map{|k, v| v.pathname})
-
       @observe_thread = Thread.new do
         while @work
           begin
