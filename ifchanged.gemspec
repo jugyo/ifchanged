@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'ifchanged'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = "If files changed, do something."
   s.description = "Command line tool that run script when files are changed."
   s.files = %w( lib/ifchanged/file_info.rb lib/ifchanged/observer.rb lib/ifchanged/version.rb lib/ifchanged.rb
