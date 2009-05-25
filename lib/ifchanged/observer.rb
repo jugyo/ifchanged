@@ -78,7 +78,11 @@ module IfChanged
 
     def call_hooks(pathnames = [])
       @hooks.each do |hook|
-        hook.call(pathnames.map{|i| i.to_s})
+        begin
+          hook.call(pathnames.map{|i| i.to_s})
+        rescue => e
+          handle_error(e)
+        end
       end
     end
 
