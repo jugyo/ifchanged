@@ -4,7 +4,7 @@ http://github.com/jugyo/ifchanged
 
 == DESCRIPTION:
 
-If files changed, do something.
+Do it, if changed to files.
 
 == SYNOPSIS:
 
