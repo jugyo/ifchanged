@@ -12,6 +12,10 @@ Do it, if changed to files.
 
 == INSTALL:
 
+ sudo gem install ifchanged
+
+or
+
  gem source -a http://gems.github.com
  sudo gem install jugyo-ifchanged
 
