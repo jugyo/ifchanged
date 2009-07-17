@@ -12,7 +12,7 @@ module IfChanged
   class << self
     def run(argv)
       files = []
-      script = 
+      script = ''
       interval = 1
       help = ''
 
