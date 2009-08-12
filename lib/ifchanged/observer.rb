@@ -1,5 +1,4 @@
 require 'pathname'
-require 'readline'
 require 'singleton'
 
 module IfChanged
